@@ -1,0 +1,44 @@
+@media screen and (max-width:1000px){
+    body{
+        background-color: rgb(196, 76, 76);
+    }
+    nav{
+        flex-direction: column;
+    }
+    .logo{
+        justify-content: center;
+        margin-top: 6px;
+    }
+    .slider{
+        height: 23vh;
+    }
+    nav ul {
+        justify-content: center;
+        height: 30px;
+    }
+    .card-item img{
+        width: 30vh;
+    }
+    .search{
+        justify-content: center;
+    }
+    .search input{
+        margin-left: 20px;
+        margin-bottom: 5px;
+        margin-right: 5px;
+    }
+    .btn{
+        margin-bottom: 5px;
+    }
+    .cards{
+        height: 72vh;
+    }
+
+    .cards .card-item{
+        padding: 0 5vw;
+        margin: 0 3vw;
+    }
+
+    /*.lines*/
+    
+}

@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+:root {
+    --main-bg-color: rgb(3 3 3);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+footer {
+    height: 12vh;
+    background-color: var(--main-bg-color);
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+
+header {
+    
+    font-family: 'Lato', sans-serif;
+    background-color: var(--main-bg-color);
+}
+
+nav {
+    display: flex;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    padding: 0 20px;
+    width: 80px;
+}
+
+nav ul {
+    height: 58px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 0 13px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    font-weight: bolder;
+    color: rgb(237, 237, 225);
+}
+
+.container{
+    min-height: calc(100vh - 58px - 12vh);
+}
+
+.search{
+    display: flex;
+    align-items: center;
+}
+
+.search input{
+    border: 3px solid  #535354;
+    width: 30vw; /*width ni vw loki changge chesaru responsive cheyyataniki*/
+    height: 20px;
+    border-radius: 3px;
+    margin: 0 6px 0 100px;
+    padding: 0 12px;
+
+}
+
+.search input:hover{
+    font-weight: bold;
+}
+.search button:hover{
+    color: rgb(201, 179, 149);
+    font-weight: bolder;
+}
+
+.slider{
+    margin:12px auto;
+    width: 80vw;
+    align-items: center;
+    overflow: hidden;
+}
+
+.card{
+   
+    margin: 12px auto;
+    max-width: 94vw;
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+
+.card-item{
+    width: 12vw;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: o 13px;
+}
+
+.my-1{
+    margin: 0 5px;
+}
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
